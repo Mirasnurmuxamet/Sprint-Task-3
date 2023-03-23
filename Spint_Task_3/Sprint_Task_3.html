@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprint_TasK_3</title>
+</head>
+<body style="display: flex; justify-content: center; background-color: #E4E6FB">
+<div style="display: flex; width: 83%;" >
+    <div style="margin: 0px 5px; width: 25%">
+        <p>Введите cумму: </p>
+        <div>
+            <input oninput="change()"  id="inputCash" type="text" size="width: 75%;" style="padding: 4px 10px;">
+            <select onchange="change()" id="choiceCurrency" style="width: 25%; margin-left: 5px; padding: 4px 2px; ">
+                <option>KZT</option>
+                <option>USD</option>
+                <option>EUR</option>
+            </select>
+        </div>
+    </div>
+    <div style="margin: 0px 5px; width: 25%;">
+        <p style="font-weight: 900;">KZT (tenge)</p>
+        <p id="tenge" style="background-color: white; padding: 5px 10px;"><d>-</d></p>
+    </div>
+    <div style="margin: 0px 5px; width: 25%;">
+        <p style="font-weight: 900" >USD (dollar)</p>
+        <p id="dollar" style="background-color: white; padding: 5px 10px;">-</p>
+    </div>
+    <div style="margin: 0px 5px; width: 25%">
+        <p style="font-weight: 900" >EUR (euro)</p>
+        <p id="euro" style="background-color: white; padding: 5px 10px">-</p>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="script_Sprint_Task_3.js"></script>
+</html>
