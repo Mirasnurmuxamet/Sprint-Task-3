@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprint_Task_4</title>
+    <link rel="stylesheet" type="text/css" href="Sprint_Task_4_Style.css">
+</head>
+<body>
+<div class="navbar">
+    <h2>TWITTER</h2>
+    <div class="menu">
+        <a>Tweets</a>
+        <a href="Sprint_Task_4_Singin.html">Login</a>
+        <a href="#">Register</a>
+    </div>
+</div>
+<div class="main">
+    <div class="register">
+        <div id="success" style="color: green; font-weight: bold;"></div>
+        <p>EMAIL:</p>
+        <input  id="email" type="text">
+        <div id="erorEmail" style="color: red;"></div>
+        <p>PASSWORD: </p>
+        <input id="password" type="password">
+        <div id="erorPassword" style="color: red;"></div>
+        <p>FULL NAME:</p>
+        <input id="fullName" type="text">
+        <div id="erorFullName" style="color: red;"></div>
+        <p>COUNTRY:</p>
+        <select id="country">
+            <option>Kazakhstan</option>
+            <option>Turkey</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Italy</option>
+            <option>China</option>
+            <option>Kanada</option>
+            <option>Japan</option>
+            <option>Saudi Arabia</option>
+            <option>Brazil</option>
+        </select>
+        <p>BIRTHDATE:</p>
+            <input id="birthDate"  type="date"><br><br>
+        <div id="erorBirthDate" style="color: red;"></div>
+        <div>
+            <button onclick="addUser()">REGISTER</button>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="Sprint_Task_4_Script.js"></script>
+</html>

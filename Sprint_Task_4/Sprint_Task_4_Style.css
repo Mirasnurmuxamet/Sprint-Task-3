@@ -1,0 +1,74 @@
+body{
+margin: 0px 0px;
+font-family: Verdana;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+background-color: #00acee;
+}
+.navbar h2{
+color: white;
+margin-left: 20px;
+}
+.menu{
+display: flex;
+align-items: center;
+margin-right: 20px;
+font-size: 18px;
+color: #2461a3;
+}
+.menu a{
+margin: 5px;
+text-decoration: none;
+color: #2461a3;
+}
+.menu a:hover{
+color: white;
+}
+.main{
+margin-top:  20px;
+display: flex;
+justify-content: center;
+}
+.register{
+width: 400px;
+}
+.register input{
+width: 400px;
+padding: 5px 10px;
+font-size: 17px;
+}
+.register select{
+padding: 5px 10px;
+width: 400px;
+font-size: 17px;
+}
+.register button{
+padding: 10px 20px;
+margin-top: 10px;
+background-color: #4287f5;
+color:white;
+border: hidden;
+border-radius: 5px;
+}
+.register button:active{
+background-color:#2461a3;
+}
+.inform{
+color: #556373;
+font-family: Arial;
+width:400px;
+}
+.inform p{
+font-size: 20px;
+font-weight: 300;
+}
+.inform b{
+font-size: 18px;
+font-weight: 600;
+}
+.inform h2{
+font-size: 27px;
+font-weight: 600;
+}
